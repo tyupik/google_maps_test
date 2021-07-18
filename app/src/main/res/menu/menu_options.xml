@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/newMarker"
+        android:title="Добавить маркер" />
+
+    <item android:id="@+id/deleteMarker"
+        android:title="Удалить маркер" />
+
+    <item android:id="@+id/editMarker"
+        android:title="Редактировать маркер" />
+
+    <item android:id="@+id/listAllMarkers"
+        android:title="Список маркеров" />
+
+</menu>

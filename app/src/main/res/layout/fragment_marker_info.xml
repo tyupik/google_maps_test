@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/marker_title_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:paddingEnd="30dp"
+        android:text="Название: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/marker_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="markerTitle"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/marker_title_info"
+        app:layout_constraintTop_toTopOf="@id/marker_title_info"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/marker_coordinates_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Координаты: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/marker_title_info"
+        app:layout_constraintTop_toBottomOf="@id/marker_title_info"
+        android:paddingBottom="40dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/marker_coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="markerTitle"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/marker_title"
+        app:layout_constraintTop_toTopOf="@id/marker_coordinates_info"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="30dp"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
